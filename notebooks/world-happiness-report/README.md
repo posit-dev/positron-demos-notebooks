@@ -6,24 +6,14 @@ Analysis of the World Happiness Report converted from a Quarto document to a Jup
 
 ## Getting started
 
-1. Clone this repo, via SSH:
-    ```sh
-    git clone git@github.com:posit-dev/positron-demos-notebooks.git
+1. Install `uv` using the [official instructions](https://docs.astral.sh/uv/getting-started/installation/).
+2. Use the _Workspaces: New Folder from Git..._ command, enter this repo's URL, and a parent folder:
     ```
-
-    or HTTPS:
-
-    ```sh
-    git clone https://github.com/posit-dev/positron-demos-notebooks.git
+    https://github.com/posit-dev/positron-demos-notebooks
     ```
-2. Open this subfolder:
-    ```sh
-    cd notebooks/world-happiness-report
-    ```
-3. Install `uv` using the [official instructions](https://docs.astral.sh/uv/getting-started/installation/).
-4. Install this project's dependencies using `uv`:
+3. Install this project's dependencies using `uv`:
     
     ```bash
-    uv sync
+    (cd notebooks/world-happiness-report && uv sync)
     ```
-5. Open the `world-happiness-report` folder in Positron, then open the `world-happiness-report.ipynb` notebook.
+4. Open the `world-happiness-report.ipynb` notebook.
