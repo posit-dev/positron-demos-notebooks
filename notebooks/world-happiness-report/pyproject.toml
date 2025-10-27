@@ -1,0 +1,12 @@
+[project]
+name = "world-happiness-report"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "brand_yml",
+    "numpy",
+    "pandas",
+    "plotnine",
+    "quarto @ git+https://github.com/quarto-dev/quarto-python.git@a75cee8fc77577b1ba1ba029b0f31531d3a52b80"
+]
