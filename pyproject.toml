@@ -1,7 +1,7 @@
 [project]
-name = "energy-data"
+name = "positron_demo_notebooks"
 version = "0.1.0"
-description = "Add your description here"
+description = "A simple, open repo where we host small, purpose-built notebooks for hands-on testing, feedback sessions, and product demos."
 requires-python = ">=3.13"
 dependencies = [
     "ipykernel>=7.1.0",
