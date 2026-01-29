@@ -7,7 +7,8 @@ A simple, open repo where we host small, purpose-built notebooks for hands-on te
 
 1. Run `uv sync` from the root of this repo
 2. Restart Positron so it can detect the new virtual environment
-3. Open your notebook and select the uv environment as the kernel. (Should be listed with suffix `Uv: positron-demo-notebooks`)
+3. Select the new environment using the interpreter picker. (Should be listed with suffix `Uv: positron-demo-notebooks`)
+4. Open your notebook and ensure that the new environment is selected
 
 ### Option 2: Using pip
 
@@ -20,6 +21,6 @@ A simple, open repo where we host small, purpose-built notebooks for hands-on te
    ```bash
    pip install -r requirements.txt
    ```
-3. Restart Positron and select the `.venv` environment as your kernel 
-
-
+3. Restart Positron so it can detect the new virtual environment
+4. Select the new environment using the interpreter picker.
+5. Open your notebook and ensure that the new environment is selected
